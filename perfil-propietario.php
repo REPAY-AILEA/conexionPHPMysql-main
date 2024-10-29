@@ -73,6 +73,8 @@ require_once("conexion.php");
             </div>
         </div>
     </section>
+
+    <div class="perfiles">
     <div class="nombreusu1">
         <h1> <?php echo $nombre . ' ' . $apellido; ?></h1>
     </div>
@@ -86,6 +88,8 @@ require_once("conexion.php");
     <div class="propietario">
         <p><strong>PROPIETARIO</strong></p>
     </div>
+    </div>
+    
     <hr>
     <div class="tony">
 
