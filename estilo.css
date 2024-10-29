@@ -87,9 +87,11 @@ transition: all 0.3s;
 }
 /* From Uiverse.io by andrew-demchenk0 */ 
 .container input {
+  position: absolute;
+  opacity: 0;
   cursor: pointer;
-  height: 38px;
-  width: 100px;
+  height: 0;
+  width: 0;
 }
 
 .container {
@@ -335,7 +337,9 @@ gap: 15px;
 .menu-icono{
   width: 25px;
 }
-
+.navbar{
+  
+}
 
 .menu label{
     cursor: pointer;
@@ -347,7 +351,7 @@ nav{
 }
 .navbar{
   display: flex;
-  height: 300px;
+  height: 100px;
 
 }
 
