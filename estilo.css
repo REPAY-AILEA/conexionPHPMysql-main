@@ -430,14 +430,14 @@ nav a{
 
 
 .content{
-    background-color: #004badab;
-    display: flex;
-    gap: 15px;
-    margin-inline: 20%;
-    margin-top: 50px;
-    justify-content: center;
-    border-radius: 10px;
-    padding: 10px;
+  background-color: #004badab;
+  display: flex;
+  gap: 15px;
+  margin-inline: 8%;
+  margin-top: 50px;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 20px;
 }
 
 @media(max-width:1050px){
@@ -1658,5 +1658,20 @@ select {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
 }
 
+.form-select{
+  width: 85%;
+}
 
+.form-control{
+  width: 85%;
+}
 
+.col-md-3{
+  width: 20%;
+}
+
+.container-filtro{
+  max-height: 100px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
